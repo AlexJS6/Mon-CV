@@ -6,13 +6,13 @@
 .one {
     grid-column: 1 / 2;
     grid-row: 1;
-    background-color: #aaf;
+    background-image: linear-gradient(to bottom, rgb(235, 170, 255), rgb(200,150,230));
     padding-left: 130px;
 }
 .two {
     grid-column: 2 / 2;
     grid-row: 1;
-    background-color: #aaf;
+    background-image: linear-gradient(to bottom, rgb(235, 170, 255), rgb(200,150,230));
     font-size: 130%;
     padding-top: 30px;
     padding-left: 150px;
@@ -23,14 +23,14 @@ h1 {
 .three {
     grid-column: 1 / 2;
     grid-row: 2;
-    background-color: #ccf;
+    background-image: linear-gradient(to bottom, rgb(200,150,230), #ccf);
     font-size: 130%;
     padding-left: 130px;
 }
 .four {
     grid-column: 2/2;
     grid-row: 2;
-    background-color: #ccf;
+    background-image: linear-gradient(to bottom, rgb(200,150,230), #ccf);
     padding-left: 150px;
     font-size: 130%
 }
@@ -59,4 +59,21 @@ h1 {
 p {
     padding-top: 5px;
     padding-bottom: 5px;
+}
+#phone_img:hover, #location_img:hover, #email_img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    opacity: 0.5;
+}
+#Alexander_img:hover {
+    opacity: 0.2;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#Alexander_img {
+    position: absolute;
+    margin-bottom: 10em;
+}
+#some_infos {
+    font-size: 1.1em;
 }
