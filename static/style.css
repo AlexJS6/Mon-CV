@@ -27,13 +27,27 @@ h1 {
     font-size: 130%;
     padding-left: 130px;
 }
+.three1 {
+    background-color: #aaf;
+    font-size: 1.2em;
+    border: 5px solid #88f;
+    box-shadow: 3px 3px 3px #aaa;
+}
 .four {
     grid-column: 2/2;
     grid-row: 2;
     background-image: linear-gradient(to bottom, rgb(200,150,230), #ccf);
     padding-left: 150px;
-    font-size: 130%
+    font-size: 130%;
 }
+.four1 {
+    background-color: #aaf;
+    font-size: 1.2em;
+    border: 5px solid #88f;
+    box-shadow: 5px 5px 3px #aaa;
+    margin-right: 30px;
+}
+
 .five {
     grid-column: 1/2;
     grid-row: 3;
@@ -41,12 +55,36 @@ h1 {
     font-size: 130%;
     padding-left: 130px;
 }
+.five1 {
+    background-color: #bbf;
+    font-size: 1.2em;
+    border: 5px solid #99f;
+    box-shadow: 5px 5px 3px #aaa;
+    padding-left: 30px;
+    margin-right: 30px;
+}
 .six {
     grid-column: 2/2;
     grid-row: 3;
     background-color: #ccf;
     font-size: 130%;
     padding-left: 150px;
+}
+.six1 {
+    background-color: #bbf;
+    font-size: 1.2em;
+    border: 5px solid #99f;
+    box-shadow: 5px 5px 3px #aaa;
+    padding-left: 30px;
+    margin-right: 30px;
+    margin-top: 75px;
+}
+.six2 {
+    background-color: #c5c5ff;
+    font-size: 1.2em;
+    border: 5px solid #aaf;
+    box-shadow: 5px 5px 3px #aaa;
+    margin-right: 30px;
 }
 h3 {
     text-decoration: underline;
